@@ -13,7 +13,7 @@ public class GameFlowEditor : EditorWindow
 
     private readonly List<ChapterData> chapters = new List<ChapterData>();
 
-    [MenuItem("Custom Tools/Game Flow Editor")]
+   // [MenuItem("Custom Tools/Game Flow Editor")]
     public static void ShowWindow()
     {
         GetWindow<GameFlowEditor>("Game Flow Editor");

@@ -7,6 +7,7 @@ public class ChapterEditorWindow : EditorWindow
     private static int chapterIndex;
     private static GameFlowEditor.ChapterData chapterData;
 
+
     public static void ShowWindow(int index, GameFlowEditor.ChapterData data)
     {
         chapterIndex = index;
