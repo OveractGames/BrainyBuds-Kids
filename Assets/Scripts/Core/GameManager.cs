@@ -16,6 +16,13 @@ public class GameManager : MonoBehaviour
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            CurrentUser = new UserProfile
+            {
+                username = "Guest",
+                avatar = "default_avatar",
+                language = "en",
+                lastChapter = 0
+            };
         }
         else
         {
@@ -24,7 +31,7 @@ public class GameManager : MonoBehaviour
     }
 }
 
-public abstract class UserProfile
+public class UserProfile
 {
     public string username;
     public string avatar;

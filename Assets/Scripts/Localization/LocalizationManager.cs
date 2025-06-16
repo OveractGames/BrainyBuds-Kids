@@ -5,6 +5,8 @@ using UnityEngine;
 public class LocalizationManager : MonoBehaviour
 {
     private Dictionary<string, string> localizedTexts;
+    
+    public static LocalizationManager Instance { get; private set; }
 
     public void LoadLanguage(string lang)
     {
