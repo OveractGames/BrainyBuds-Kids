@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d85f4f83a299fc74d8400e915e9c94f9, type: 3}
+  m_Name: QuizData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionID: 0
+    questionText: What made the little wolf so special in the forest?
+    answers:
+    - answerText: He was the strongest animal.
+      isCorrect: 0
+    - answerText: He had a big, brave heart.
+      isCorrect: 1
+    - answerText: He could fly like a bird.
+      isCorrect: 0
+    - answerText: He was always sleeping.
+      isCorrect: 0
