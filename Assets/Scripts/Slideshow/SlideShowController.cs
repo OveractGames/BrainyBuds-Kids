@@ -40,7 +40,7 @@ public class SlideShowController : MonoBehaviour
     public void PlaySlideShow(int setIndex)
     {
         ResetSlideShow();
-        if (slideShowData == null || setIndex < 0 || setIndex >= slideShowData.slideSets.Count)
+        if (!slideShowData || setIndex < 0 || setIndex >= slideShowData.slideSets.Count)
         {
             Debug.LogError("Invalid SlideShowData or set index.");
             return;

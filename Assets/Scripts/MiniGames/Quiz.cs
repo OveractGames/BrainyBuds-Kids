@@ -1,10 +1,12 @@
 using System;
+using TMPro;
 using UnityEngine;
 
 public class Quiz : MonoBehaviour
 {
     [SerializeField] private ClickableQuizAnswer[] quizAnswers;
     [SerializeField] private QuizSet quizSet;
+    [SerializeField] private TMP_Text questionText;
 
     [SerializeField] private Sprite correctAnswerSprite;
     [SerializeField] private Sprite incorrectAnswerSprite;
@@ -24,6 +26,16 @@ public class Quiz : MonoBehaviour
         LoadQuiz(currentQuizIndex);
     }
 
+    public void HideQuiz()
+    {
+        foreach (ClickableQuizAnswer quizAnswer in quizAnswers)
+        {
+            quizAnswer.OnAnswerClick -= HandleAnswerClick;
+        }
+
+        gameObject.SetActive(false);
+    }
+
     private void LoadQuiz(int i)
     {
         QuizData quizData = quizSet.GetQuizByIndex(i);
@@ -35,6 +47,7 @@ public class Quiz : MonoBehaviour
 
         QuizQuestion question = quizData.GetRandomQuestion();
         QuizAnswer[] randomizedAnswers = RandomizeAnswers(question);
+        questionText.text = question.questionText;
         for (int j = 0; j < quizAnswers.Length; j++)
         {
             quizAnswers[j].Initialize(randomizedAnswers[j].answerText, randomizedAnswers[j].isCorrect);
@@ -61,27 +74,18 @@ public class Quiz : MonoBehaviour
         target.SetSprite(isCorrect ? correctAnswerSprite : incorrectAnswerSprite);
         if (isCorrect)
         {
-            Debug.Log("Correct answer!");
-            currentQuizIndex++;
-            if (currentQuizIndex < quizSet.quizzes.Length)
+            Debug.Log("Quiz completed!");
+            foreach (ClickableQuizAnswer quizAnswer in quizAnswers)
             {
-                LoadQuiz(currentQuizIndex);
+                quizAnswer.LockEvents();
             }
-            else
-            {
-                Debug.Log("Quiz completed!");
-                foreach (ClickableQuizAnswer quizAnswer in quizAnswers)
-                {
-                    quizAnswer.LockEvents();
-                }
 
-                OnQuizCompleted?.Invoke();
-            }
+            currentQuizIndex++;
+            OnQuizCompleted?.Invoke();
         }
         else
         {
             Debug.Log("Incorrect answer, try again.");
-            // Optionally, you can reset the quiz or provide feedback
         }
     }
 }

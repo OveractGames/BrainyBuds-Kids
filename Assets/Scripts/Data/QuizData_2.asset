@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d85f4f83a299fc74d8400e915e9c94f9, type: 3}
-  m_Name: QuizData
+  m_Name: QuizData_2
   m_EditorClassIdentifier: 
   questions:
   - questionID: 0
-    questionText: What made the little wolf so special in the forest?
+    questionText: Intrebare quiz 2
     answers:
-    - answerText: He was the strongest animal.
-      isCorrect: 0
-    - answerText: He had a big, brave heart.
+    - answerText: a
       isCorrect: 1
-    - answerText: He could fly like a bird.
-      isCorrect: 0
-    - answerText: He was always sleeping.
-      isCorrect: 0
+    - answerText: b
+      isCorrect: 1
+    - answerText: c
+      isCorrect: 1
+    - answerText: d
+      isCorrect: 1

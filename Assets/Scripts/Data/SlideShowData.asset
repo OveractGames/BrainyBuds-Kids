@@ -20,6 +20,9 @@ MonoBehaviour:
     - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
     - {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
     - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
-  - label: cap1
-    narrationAudio: {fileID: 0}
-    slides: []
+  - label: cap2
+    narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+    slides:
+    - {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
+    - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
+    - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}

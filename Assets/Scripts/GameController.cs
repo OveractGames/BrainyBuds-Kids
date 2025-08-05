@@ -1,6 +1,5 @@
 using Lean.Gui;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
@@ -10,44 +9,26 @@ public class GameController : MonoBehaviour
 
     [SerializeField] private Transform mainRoot;
 
-    [SerializeField] private Image logoImage;
     [SerializeField] private LeanButton startButton;
     [SerializeField] private LeanButton exitButton;
 
-    private Sprite Logo;
-
-    private bool isLogoLoaded = false;
-
     private void Awake()
     {
-        Logo = Resources.Load<Sprite>($"logo");
-        isLogoLoaded = Logo != null;
-
-        if (isLogoLoaded)
-        {
-            logoImage.sprite = Logo;
-            logoImage.SetNativeSize();
-            RectTransform rt = logoImage.GetComponent<RectTransform>();
-            rt.anchorMin = new Vector2(0.5f, 0.5f);
-            rt.anchorMax = new Vector2(0.5f, 0.5f);
-            rt.pivot = new Vector2(0.5f, 0.5f);
-            rt.anchoredPosition = Vector2.zero;
-            rt.localScale = Vector3.one;
-        }
-        else
-        {
-            Debug.LogError("Logo Image component is not assigned in the inspector.");
-            logoImage.gameObject.SetActive(false);
-        }
-
-        startButton.OnClick.AddListener(OnStartButtonClicked);
+        startButton.OnClick.AddListener( () => PlaySlideShow(0));
         exitButton.OnClick.AddListener(OnExitButtonClicked);
         slideShowController.OnSlideShowComplete += OnSlideShowComplete;
+        quiz.OnQuizCompleted += OnQuizCompleted;
+    }
+
+    private void OnQuizCompleted()
+    {
+        quiz.HideQuiz();
+        PlaySlideShow(1);
     }
 
     private void OnSlideShowComplete()
     {
-        Debug.Log("Slide show completed. Loading the first mini-game.");
+        Debug.Log("Slide show completed. Loading the quiz.");
         quiz.gameObject.SetActive(true);
         quiz.Init();
     }
@@ -57,7 +38,6 @@ public class GameController : MonoBehaviour
         bool isMainRootActive = mainRoot.gameObject.activeSelf;
         if (isMainRootActive)
         {
-            //back to platform screen
             return;
         }
 
@@ -65,13 +45,13 @@ public class GameController : MonoBehaviour
         slideShowController.Hide();
     }
 
-    private void OnStartButtonClicked()
+    private void PlaySlideShow(int index)
     {
         mainRoot.gameObject.SetActive(false);
 
-        if (slideShowController != null)
+        if (slideShowController)
         {
-            slideShowController.PlaySlideShow(0); // Start the slideshow with the first set
+            slideShowController.PlaySlideShow(index);
         }
         else
         {

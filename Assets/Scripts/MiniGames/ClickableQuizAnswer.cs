@@ -10,11 +10,18 @@ public class ClickableQuizAnswer : MonoBehaviour
     [SerializeField] private LeanButton answerButton;
     [SerializeField] private Image answerImage;
 
+    private Sprite _defaultSprite;
+
     private bool isCorrectAnswer;
 
     public event Action<bool, ClickableQuizAnswer> OnAnswerClick;
 
     private bool _canClick = true;
+
+    private void Awake()
+    {
+        _defaultSprite = answerImage.sprite;
+    }
 
     public void Initialize(string text, bool isCorrect)
     {
@@ -43,6 +50,8 @@ public class ClickableQuizAnswer : MonoBehaviour
             return;
         }
 
+        answerImage.sprite = _defaultSprite;
+        enabled = true;
         answerButton.OnClick.AddListener(OnAnswerClicked);
     }
 
