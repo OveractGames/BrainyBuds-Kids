@@ -6,6 +6,7 @@ public class GameController : MonoBehaviour
 {
     [SerializeField] private SlideShowController slideShowController;
     [SerializeField] private MiniGamesManager miniGamesManager;
+    [SerializeField] private Quiz quiz;
 
     [SerializeField] private Transform mainRoot;
 
@@ -47,7 +48,8 @@ public class GameController : MonoBehaviour
     private void OnSlideShowComplete()
     {
         Debug.Log("Slide show completed. Loading the first mini-game.");
-        miniGamesManager.LoadMiniGame(0);
+        quiz.gameObject.SetActive(true);
+        quiz.Init();
     }
 
     private void OnExitButtonClicked()
