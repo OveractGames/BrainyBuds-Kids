@@ -26,16 +26,21 @@ public class GameController : MonoBehaviour
         exitButton.OnClick.AddListener(OnExitButtonClicked);
         slideShowController.OnSlideShowComplete += OnSlideShowComplete;
         quiz.OnQuizCompleted += OnQuizCompleted;
-        finishScreen.OnFinish += OnFinish;
+        finishScreen.OnFinish += OnContinueClick;
         funGameManager.OnFunGameFinished += OnFinish;
+        mainScreen.Show();
+    }
+
+    private void OnContinueClick()
+    {
+        // This method is called when the continue button is clicked on the finish screen.
         mainScreen.Show();
     }
 
     private void OnFinish()
     {
         Debug.Log("Game finished. Showing finish screen.");
-        //exit to main platform?
-        mainScreen.Show();
+        finishScreen.Show();
     }
 
     private void OnQuizCompleted()
