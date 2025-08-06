@@ -52,6 +52,7 @@ public class ClickableQuizAnswer : MonoBehaviour
 
         answerImage.sprite = _defaultSprite;
         enabled = true;
+        _canClick = true;
         answerButton.OnClick.AddListener(OnAnswerClicked);
     }
 

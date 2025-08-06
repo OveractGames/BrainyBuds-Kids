@@ -17,10 +17,10 @@ MonoBehaviour:
     questionText: Intrebare quiz 2
     answers:
     - answerText: a
-      isCorrect: 1
+      isCorrect: 0
     - answerText: b
-      isCorrect: 1
+      isCorrect: 0
     - answerText: c
-      isCorrect: 1
+      isCorrect: 0
     - answerText: d
       isCorrect: 1

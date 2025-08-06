@@ -32,8 +32,6 @@ public class Quiz : MonoBehaviour
         {
             quizAnswer.OnAnswerClick -= HandleAnswerClick;
         }
-
-        gameObject.SetActive(false);
     }
 
     private void LoadQuiz(int i)
@@ -67,6 +65,11 @@ public class Quiz : MonoBehaviour
         }
 
         return randomizedAnswers;
+    }
+    
+    public bool HaveMoreQuizzes()
+    {
+        return currentQuizIndex < quizSet.quizzes.Length ;
     }
 
     private void HandleAnswerClick(bool isCorrect, ClickableQuizAnswer target)

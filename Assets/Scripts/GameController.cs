@@ -1,53 +1,82 @@
 using Lean.Gui;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class GameController : MonoBehaviour
 {
     [SerializeField] private SlideShowController slideShowController;
-    [SerializeField] private MiniGamesManager miniGamesManager;
+
+    [FormerlySerializedAs("miniGamesManager")] [SerializeField]
+    private FunGameManager funGameManager;
+
     [SerializeField] private Quiz quiz;
 
-    [SerializeField] private Transform mainRoot;
+    [SerializeField] private MainScreen mainScreen;
+    [SerializeField] private SlideShowScreen slideShowScreen;
+    [SerializeField] private QuizScreen quizScreen;
+    [SerializeField] private FunGameScreen funGameScreen;
+    [SerializeField] private FinishScreen finishScreen;
 
     [SerializeField] private LeanButton startButton;
     [SerializeField] private LeanButton exitButton;
 
     private void Awake()
     {
-        startButton.OnClick.AddListener( () => PlaySlideShow(0));
+        startButton.OnClick.AddListener(() => PlaySlideShow(0));
         exitButton.OnClick.AddListener(OnExitButtonClicked);
         slideShowController.OnSlideShowComplete += OnSlideShowComplete;
         quiz.OnQuizCompleted += OnQuizCompleted;
+        finishScreen.OnFinish += OnFinish;
+        funGameManager.OnFunGameFinished += OnFinish;
+        mainScreen.Show();
+    }
+
+    private void OnFinish()
+    {
+        Debug.Log("Game finished. Showing finish screen.");
+        //exit to main platform?
+        mainScreen.Show();
     }
 
     private void OnQuizCompleted()
     {
         quiz.HideQuiz();
+        if (!quiz.HaveMoreQuizzes())
+        {
+            Debug.Log("No more quizzes available. Loading the mini-game.");
+            quizScreen.Hide();
+            funGameManager.LoadFunGame();
+            return;
+        }
+
+        quizScreen.Hide();
         PlaySlideShow(1);
     }
 
     private void OnSlideShowComplete()
     {
         Debug.Log("Slide show completed. Loading the quiz.");
-        quiz.gameObject.SetActive(true);
+        quizScreen.Show();
+        slideShowScreen.Hide();
         quiz.Init();
     }
 
     private void OnExitButtonClicked()
     {
-        bool isMainRootActive = mainRoot.gameObject.activeSelf;
+        bool isMainRootActive = mainScreen.IsVisible;
         if (isMainRootActive)
         {
             return;
         }
 
-        mainRoot.gameObject.SetActive(true);
+        mainScreen.Show();
         slideShowController.Hide();
     }
 
     private void PlaySlideShow(int index)
     {
-        mainRoot.gameObject.SetActive(false);
+        slideShowScreen.Show();
+        mainScreen.Hide();
 
         if (slideShowController)
         {
