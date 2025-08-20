@@ -46,6 +46,8 @@ public class AVProVideoController : MonoBehaviour
         _lastMousePos = Input.mousePosition;
     }
 
+    public static string videoFileName = "logo.mp4";
+
     private void Start()
     {
         _controls = new List<GameObject>
@@ -91,7 +93,7 @@ public class AVProVideoController : MonoBehaviour
         pauseButton?.onClick.AddListener(OnPauseButton);
         rewindButton?.onClick.AddListener(OnRewindButton);
 
-        OnOpenVideoFile("c1i2.mp4");
+        OnOpenVideoFile(videoFileName);
     }
 
     private void OnDestroy()
