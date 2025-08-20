@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eeac93a986e026742ab84f895e5df439
+MovieImporter:
+  serializedVersion: 1
+  quality: .5
+  linearTexture: 0
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/StreamingAssets/AVProVideoSamples/BigBuckBunny_720p30.mp4
+  uploadId: 401077

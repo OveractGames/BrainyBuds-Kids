@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c9328411ef862884f97a993c4daa9b68
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Scripts/Editor/PlaylistMediaPlayerEditor.cs
+  uploadId: 401077

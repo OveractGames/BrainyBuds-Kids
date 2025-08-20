@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: d1085d25f9ef09b4c91188f9f99f37a2
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Resources/Shaders/AVProVideo-IMGUI-Transparent.shader
+  uploadId: 401077

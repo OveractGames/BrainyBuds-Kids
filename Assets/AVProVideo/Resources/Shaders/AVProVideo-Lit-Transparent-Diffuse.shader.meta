@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 751148eda67f7b34fbd51bfb7951084f
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Resources/Shaders/AVProVideo-Lit-Transparent-Diffuse.shader
+  uploadId: 401077

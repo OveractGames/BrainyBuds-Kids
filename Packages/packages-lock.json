@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.editura.edu.utils.v3.tools.googleplay": {
+      "version": "3.0.11",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "http://edoogle.com:4873"
+    },
     "com.unity.2d.animation": {
       "version": "10.1.4",
       "depth": 0,

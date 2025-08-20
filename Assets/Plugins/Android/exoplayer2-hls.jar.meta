@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 082926d418d38124bbbfd07ddc16bc39
+DefaultImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/Plugins/Android/exoplayer2-hls.jar
+  uploadId: 401077

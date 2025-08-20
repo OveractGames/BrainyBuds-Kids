@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: f9f51999155859b419ff715c8127688a
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Resources/Shaders/AVProVideo-UI-AndroidOES.shader
+  uploadId: 401077

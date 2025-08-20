@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: ad557c974d443cc44a6839862e394f55
+timeCreated: 1495729140
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: bb83b41b53a59874692b83eab5873998, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Scripts/Components/Support/PlayMaker/Actions/AVProVideoEvent.cs
+  uploadId: 401077

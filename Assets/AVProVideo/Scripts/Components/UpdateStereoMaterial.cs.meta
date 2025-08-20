@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4ed685e8c5f1f584aa28b32dcf9bdab1
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: bb83b41b53a59874692b83eab5873998, type: 3}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Scripts/Components/UpdateStereoMaterial.cs
+  uploadId: 401077

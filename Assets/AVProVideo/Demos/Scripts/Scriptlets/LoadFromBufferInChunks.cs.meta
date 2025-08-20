@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 21bf5c9ec2dc6dd4e94ac5c697f87d11
+timeCreated: 1521044189
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Demos/Scripts/Scriptlets/LoadFromBufferInChunks.cs
+  uploadId: 401077

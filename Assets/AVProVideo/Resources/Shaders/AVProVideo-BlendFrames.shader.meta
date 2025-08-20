@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 8ebaafdbf44b0b9489f20bc27374d187
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Resources/Shaders/AVProVideo-BlendFrames.shader
+  uploadId: 401077

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: c1b987a1d8499804e9e95fe44d737f68
+DefaultImporter:
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/Plugins/Android/exoplayer2-smoothstreaming.jar
+  uploadId: 401077

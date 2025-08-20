@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: cd61ad6ed525a7243896df42a93c2a98
+timeCreated: 1488843802
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Demos/Scripts/Scriptlets/VideoTrigger.cs
+  uploadId: 401077

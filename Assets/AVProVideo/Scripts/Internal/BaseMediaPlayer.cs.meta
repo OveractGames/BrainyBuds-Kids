@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 4f59504ca098e7d41b036917f4764ee0
+timeCreated: 1447782861
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Scripts/Internal/BaseMediaPlayer.cs
+  uploadId: 401077

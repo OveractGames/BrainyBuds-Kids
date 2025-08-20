@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: 1ca6555d94ddb204c87e9fe549085b3c
+ShaderImporter:
+  defaultTextures: []
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Resources/Shaders/AVProVideo-Unlit.shader
+  uploadId: 401077

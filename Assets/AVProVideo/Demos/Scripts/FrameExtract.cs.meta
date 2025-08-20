@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0bfe4eaf264074b43a6224bab247c269
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Demos/Scripts/FrameExtract.cs
+  uploadId: 401077

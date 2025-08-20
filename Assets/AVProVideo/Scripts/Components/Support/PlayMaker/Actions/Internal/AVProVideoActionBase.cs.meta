@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 26061aaf4d9de48eabaacb0e6f46de11
+timeCreated: 1493967542
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Scripts/Components/Support/PlayMaker/Actions/Internal/AVProVideoActionBase.cs
+  uploadId: 401077

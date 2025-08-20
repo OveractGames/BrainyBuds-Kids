@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: bdb8b60922708534498e2539232f026c
+timeCreated: 1438729098
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 56355
+  packageName: AVPro Video
+  packageVersion: 1.11.7
+  assetPath: Assets/AVProVideo/Demos/Scripts/VCR.cs
+  uploadId: 401077

@@ -5,7 +5,7 @@ namespace EduUtils.Visual
     /// <summary>
     /// Follows to given target on specified axis
     /// </summary>
-    public class FollowerCam : MonoBehaviour
+    public class FollowerCamGame : MonoBehaviour
     {
         public enum UpdateType
         {

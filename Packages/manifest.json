@@ -42,6 +42,16 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.editura.edu.utils.v3.tools.googleplay": "3.0.11"
+  },
+  "scopedRegistries": [
+    {
+      "name": "EduUtils",
+      "url": "http://edoogle.com:4873",
+      "scopes": [
+        "com.editura.edu"
+      ]
+    }
+  ]
 }
