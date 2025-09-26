@@ -107,6 +107,7 @@ public static class SceneLoadWatcher
             {
                 if (_instance)
                 {
+                    Debug.Log($"[SceneLoadWatcher] Tracking operation {op.progress * 100}%");
                     _instance.SetProgress(op.progress);
                     yield return null;
                 }

@@ -85,7 +85,7 @@ public class GameController : MonoBehaviour
 
         if (slideShowController)
         {
-            slideShowController.PlaySlideShow(index);
+            slideShowController.Create(index, "cap1game1");
         }
         else
         {
