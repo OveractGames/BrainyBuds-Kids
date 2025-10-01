@@ -17,7 +17,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &4516606463107538
 Transform:
   m_ObjectHideFlags: 0
@@ -74,8 +74,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -1240245955
-  m_SortingLayer: 0
+  m_SortingLayerID: -1066996159
+  m_SortingLayer: 1
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 2c1eb5b8def65354a86c9df5a20ee8cd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -352,7 +352,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e45451814d0def046a1cbf0c2d5d8955, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  backgroundImage: {fileID: 212760864789644278}
-  animationObject: {fileID: 1451701283540392}
   canvasGroup: {fileID: 0}
   progressBar: {fileID: 0}

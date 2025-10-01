@@ -20,5 +20,11 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interface.unity
     guid: 7e16388bae9c5c34fb1d74c6cdb3b8c1
+  - enabled: 1
+    path: Assets/Scenes/ChapterInterface.unity
+    guid: 67aa14a7a5ff2244fb6fcd933e11d4b7
+  - enabled: 1
+    path: Assets/Scenes/cap1game1.unity
+    guid: b06986bb9ad2a4144aaa314914463f57
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0

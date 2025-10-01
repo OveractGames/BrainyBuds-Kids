@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c8e32007a3e21f49b3f7f6bdb3f3f43, type: 3}
+  m_Name: GameData
+  m_EditorClassIdentifier: 
+  cards:
+  - cardID: 0
+    cardName: Card 1
+    cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
+    chapterInfos:
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 1
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+  - cardID: 0
+    cardName: Card 1
+    cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
+    chapterInfos:
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+  - cardID: 0
+    cardName: Card 1
+    cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
+    chapterInfos:
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+  - cardID: 0
+    cardName: Card 1
+    cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
+    chapterInfos:
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+  - cardID: 0
+    cardName: Card 1
+    cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
+    chapterInfos:
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+  - cardID: 0
+    cardName: Card 1
+    cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
+    chapterInfos:
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
+    - elementType: 0
+      narrationAudio: {fileID: 0}
+      slides: []
+      gameName: cap1game1
