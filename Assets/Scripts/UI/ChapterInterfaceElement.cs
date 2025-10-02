@@ -10,6 +10,7 @@ public class ChapterInterfaceElement : MonoBehaviour
 
     public void Initialize(ChapterInfo chapterInfo)
     {
+        elementType = chapterInfo.elementType;
         elementButton = GetComponent<Button>();
         if (elementButton != null)
         {
@@ -17,8 +18,15 @@ public class ChapterInterfaceElement : MonoBehaviour
         }
     }
 
-    private static void OnElementClicked(ChapterInfo chapterInfo)
+    private void OnElementClicked(ChapterInfo chapterInfo)
     {
+        Debug.Log(ElementType);
+        if (elementType == ElementType.SlideShow)
+        {
+            SlideShow.Create(chapterInfo, null);
+            return;
+        }
+
         SceneLoadWatcher.LoadScene(chapterInfo.gameName);
     }
 }

@@ -18,166 +18,310 @@ MonoBehaviour:
     cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
     chapterInfos:
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 1
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
+      gameName: cap1game2
+    - elementType: 0
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
+      gameName: cap1game3
+    - elementType: 1
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
-    - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+    - elementType: 1
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
-    - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
-      gameName: cap1game1
-    - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
-      gameName: cap1game1
-  - cardID: 0
+  - cardID: 1
     cardName: Card 1
     cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
     chapterInfos:
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
+      gameName: cap1game1
+    - elementType: 1
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
+      gameName: cap1game1
+    - elementType: 1
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
-    - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+    - elementType: 1
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
-    - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
-      gameName: cap1game1
-    - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
-      gameName: cap1game1
-  - cardID: 0
+  - cardID: 2
     cardName: Card 1
     cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
     chapterInfos:
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
-  - cardID: 0
+  - cardID: 3
     cardName: Card 1
     cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
     chapterInfos:
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
-  - cardID: 0
+  - cardID: 4
     cardName: Card 1
     cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
     chapterInfos:
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
-  - cardID: 0
+  - cardID: 5
     cardName: Card 1
     cardImage: {fileID: 6829845435162842489, guid: bb6a847fe163b904192b7bae92ec5358, type: 3}
     chapterInfos:
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1
     - elementType: 0
-      narrationAudio: {fileID: 0}
-      slides: []
+      narrationAudio: {fileID: 8300000, guid: 743fd52079588ab418269a8650ca95ee, type: 3}
+      slides:
+      - {fileID: 2147696925600259175, guid: 3dfcbc78396304c4fa4d4a7ed5eb78bc, type: 3}
+      - {fileID: -2347497863711081602, guid: 7f134f3ea3e03bf4cb10144a19a30b5a, type: 3}
+      - {fileID: -6225373128341450492, guid: f5a6b4cced40b1b48b030a4d6ca961c3, type: 3}
+      - {fileID: -7954918041293120040, guid: 64b24b2fa44ccdc428981a622fb4b699, type: 3}
       gameName: cap1game1

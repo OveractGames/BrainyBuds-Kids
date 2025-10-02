@@ -36,6 +36,6 @@ public class Interface : MonoBehaviour
     private static void OnChapterCardClicked(int chapterIndex)
     {
         clickedChapterIndex = chapterIndex;
-        SceneLoadWatcher.LoadScene("ChapterInterface");
+        SceneLoadWatcher.LoadScene("Chapter" + (clickedChapterIndex + 1));
     }
 }
